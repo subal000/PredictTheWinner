@@ -1,4 +1,7 @@
-package com.example.android.myapplication.data
+package com.example.android.myapplication.data.repository
+
+import com.example.android.myapplication.data.PredictedDatabase
+import com.example.android.myapplication.data.Predicteditem
 
 class PredictedRepository(
     private val db: PredictedDatabase

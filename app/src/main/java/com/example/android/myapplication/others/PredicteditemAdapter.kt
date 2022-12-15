@@ -1,10 +1,12 @@
-package com.example.android.myapplication
+package com.example.android.myapplication.others
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.android.myapplication.R
 import com.example.android.myapplication.data.Predicteditem
+import com.example.android.myapplication.ui.PredictionViewModel
 import kotlinx.android.synthetic.main.predicted_items.view.*
 
 class PredicteditemAdapter(

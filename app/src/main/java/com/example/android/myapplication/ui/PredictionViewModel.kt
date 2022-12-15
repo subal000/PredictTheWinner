@@ -1,7 +1,7 @@
-package com.example.android.myapplication
+package com.example.android.myapplication.ui
 
 import androidx.lifecycle.ViewModel
-import com.example.android.myapplication.data.PredictedRepository
+import com.example.android.myapplication.data.repository.PredictedRepository
 import com.example.android.myapplication.data.Predicteditem
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

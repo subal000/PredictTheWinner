@@ -11,7 +11,7 @@
         android:name = ".PredictionApplication"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SeeMyScore"
+            android:name=".ui.SeeMyScore"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".StartPredicting"
+            android:name=".ui.StartPredicting"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

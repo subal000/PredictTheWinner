@@ -1,8 +1,8 @@
-package com.example.android.myapplication
+package com.example.android.myapplication.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.android.myapplication.data.PredictedRepository
+import com.example.android.myapplication.data.repository.PredictedRepository
 
 @Suppress("UNCHECKED_CAST")
 class PredictionViewModelFactory(

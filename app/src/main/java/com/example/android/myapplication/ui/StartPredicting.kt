@@ -1,4 +1,4 @@
-package com.example.android.myapplication
+package com.example.android.myapplication.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.util.Log
 import android.view.View
 import android.widget.*
 import androidx.lifecycle.ViewModelProvider
+import com.example.android.myapplication.R
 import com.example.android.myapplication.data.Predicteditem
-import kotlinx.android.synthetic.main.start_predicting.*
 import org.kodein.di.KodeinAware
 import org.kodein.di.android.kodein
 import org.kodein.di.generic.instance

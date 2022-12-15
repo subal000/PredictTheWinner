@@ -2,7 +2,8 @@ package com.example.android.myapplication
 
 import android.app.Application
 import com.example.android.myapplication.data.PredictedDatabase
-import com.example.android.myapplication.data.PredictedRepository
+import com.example.android.myapplication.data.repository.PredictedRepository
+import com.example.android.myapplication.ui.PredictionViewModelFactory
 import org.kodein.di.Kodein
 import org.kodein.di.KodeinAware
 import org.kodein.di.android.x.androidXModule

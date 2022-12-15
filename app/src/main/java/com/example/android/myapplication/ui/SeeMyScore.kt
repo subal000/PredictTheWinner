@@ -1,15 +1,12 @@
-package com.example.android.myapplication
+package com.example.android.myapplication.ui
 
-import android.annotation.SuppressLint
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.View
-import android.widget.Button
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.android.myapplication.others.PredicteditemAdapter
+import com.example.android.myapplication.R
 import kotlinx.android.synthetic.main.seemyscore.*
 import org.kodein.di.KodeinAware
 import org.kodein.di.android.kodein
